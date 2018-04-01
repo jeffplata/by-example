@@ -1,15 +1,10 @@
-32 (57/474)
-This class-based view is analogous to the previous post_list view. Here, we are 
-telling ListView to:
-•  Use a specific QuerySet instead of retrieving all objects. Instead of defining 
-a queryset attribute, we could have specified model = Post and Django 
-would have built the generic Post.objects.all() QuerySet for us.
-•  Use the context variable posts for the query results. The default variable is 
-object_list if we don't specify any context_object_name.
-•  Paginate the result displaying three objects per page.
-•  Use a custom template to render the page. If we don't set a default template, 
-ListView will use blog/post_list.html.
-Now, open the urls.py file of your blog application, comment the previous  
-post_list URL pattern, and add a new URL pattern using the PostListView  
-class as follows:
-#
+33 (58/474)
+
+Summary
+In this chapter, you have learned the basics of the Django web framework by creating 
+a basic blog application. You have designed the data models and applied migrations 
+to your project. You have created the views, templates, and URLs for your blog, 
+including object pagination.
+In the next chapter, you will learn how to enhance your blog application with  
+a comment system, tagging functionality, and allowing your users to share  
+posts by e-mail.
