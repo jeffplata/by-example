@@ -1,5 +1,11 @@
 33 (58/474)
 
-something is wrong with the cd.to variable in shate.html template
+-something is wrong with the cd.to variable in shate.html template
 
-no value shown
+-no value shown
+
++++
+solved with the following:
+in views:
+    cd = None (googled, looked for it in views.py)
+    return ... {'cd': cd...}
