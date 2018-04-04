@@ -1,11 +1,5 @@
-33 (58/474)
+stopped at page 51
 
--something is wrong with the cd.to variable in shate.html template
+chapter 2
+comments now working
 
--no value shown
-
-+++
-solved with the following:
-in views:
-    cd = None (googled, looked for it in views.py)
-    return ... {'cd': cd...}
