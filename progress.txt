@@ -1,2 +1,4 @@
-chapter 2 completed
+chapter 3: done with custom template tags
+Note that assignment_tag is no more with django 2.0
+Use simple_tag instead
 
