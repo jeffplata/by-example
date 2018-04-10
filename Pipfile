@@ -9,6 +9,7 @@ name = "pypi"
 
 django = "*"
 django-taggit = "*"
+markdown = "*"
 
 
 [dev-packages]
